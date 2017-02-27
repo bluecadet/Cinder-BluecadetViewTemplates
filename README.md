@@ -17,7 +17,7 @@ Take the ```.zip``` files from ```/template_exports``` and copy them into ```Doc
 8. Give your template a name, description, icon image, ect.
 9. Next
         
-        Your template should be exported to `/template_export` and auto exported to your `Documents/Visual Studio 2015/Templates/ItemTemplate`
+Your template should be exported to `/template_export` and auto exported to your `Documents/Visual Studio 2015/Templates/ItemTemplate`
         
 ### What template variables can I use?
 See [this](https://msdn.microsoft.com/en-us/library/eehb4faa.aspx) handy guide on Template Parameters. 
