@@ -21,3 +21,4 @@ Your template should be exported to `/template_export` and auto exported to your
         
 ### What template variables can I use?
 See [this](https://msdn.microsoft.com/en-us/library/eehb4faa.aspx) handy guide on Template Parameters. 
+That being said, you cannot use `$safeprojectname$` as this is a variable create on new project creation and since we use TinderBox to create a project it does not seem to set this variable.
