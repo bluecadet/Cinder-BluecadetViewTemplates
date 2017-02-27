@@ -12,21 +12,28 @@ Comments:
 
 #include "TouchView.h"
 
-typedef std::shared_ptr<class $safeitemname$>	$safeitemname$Ref;
+namespace $rootnamespace$ {
 
-class $safeitemname$ : public bluecadet::views::TouchView {
+	typedef std::shared_ptr<class $safeitemname$>	$safeitemname$Ref;
 
-public:
+	class $safeitemname$ : public bluecadet::views::TouchView {
 
-	$safeitemname$();
-	~$safeitemname$() {};
-	void						setup();
-	static $safeitemname$Ref	create();
+	public:
 
-protected:
+		enum class State {
 
-private:
+		} mState;
 
+		$safeitemname$();
+		~$safeitemname$() {};
 
-};
+		void			setup();
+		void			updateState($safeitemname$::State newState);
 
+	protected:
+
+	private:
+
+	};
+
+}

@@ -228,6 +228,15 @@
     <ClInclude Include="..\src\TestTextViewHeader.h">
       <Filter>Source Files\Test</Filter>
     </ClInclude>
+    <ClInclude Include="BaseViewHeader1.h">
+      <Filter>Source Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEllipse.h">
+      <Filter>Source Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLineViewHeader1.h">
+      <Filter>Source Files\Test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -259,6 +268,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\TestTextViewHeader.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseViewClass1.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseViewClass2.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseViewClass3.cpp">
       <Filter>Source Files\Test</Filter>
     </ClCompile>
   </ItemGroup>
