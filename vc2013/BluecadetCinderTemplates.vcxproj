@@ -213,23 +213,7 @@
     <ClCompile Include="..\blocks\BluecadetViews\src\debug\StatsView.cpp" />
     <ClCompile Include="..\..\blocks\OSC\src\Osc.cpp" />
     <ClCompile Include="..\..\blocks\TUIO\src\Tuio.cpp" />
-    <ClCompile Include="..\src\TestTextViewHeader.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="BaseViewClass.cpp" />
-    <ClCompile Include="BaseViewClass1.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="BaseViewClass2.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="BaseViewClass3.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="EllipseViewClass.cpp" />
     <ClCompile Include="ImageViewClass.cpp" />
     <ClCompile Include="LineViewClass.cpp" />
@@ -262,30 +246,10 @@
     <ClInclude Include="..\blocks\BluecadetViews\src\debug\StatsView.h" />
     <ClInclude Include="..\..\blocks\OSC\src\Osc.h" />
     <ClInclude Include="..\..\blocks\TUIO\src\Tuio.h" />
-    <ClInclude Include="..\src\TestTextViewHeader.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="BaseViewHeader.h" />
-    <ClInclude Include="BaseViewHeader1.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="EllipseViewHeader.h" />
     <ClInclude Include="ImageViewHeader.h" />
     <ClInclude Include="LineViewHeader.h" />
-    <ClInclude Include="TestEllipse.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="TestEllipseViewHeader.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="TestLineViewHeader1.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="TextViewHeader.h" />
     <ClInclude Include="TouchViewHeader.h" />
   </ItemGroup>

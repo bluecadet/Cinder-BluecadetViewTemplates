@@ -58,9 +58,6 @@
     <Filter Include="Blocks\TUIO\src">
       <UniqueIdentifier>{E18B2780-3013-4EAE-9FBB-252A2B810D67}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Test">
-      <UniqueIdentifier>{f06ae0f4-9673-4912-8a56-40da1a3e8bcb}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -222,21 +219,6 @@
     <ClInclude Include="TouchViewHeader.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestEllipseViewHeader.h">
-      <Filter>Source Files\Test</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\TestTextViewHeader.h">
-      <Filter>Source Files\Test</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseViewHeader1.h">
-      <Filter>Source Files\Test</Filter>
-    </ClInclude>
-    <ClInclude Include="TestEllipse.h">
-      <Filter>Source Files\Test</Filter>
-    </ClInclude>
-    <ClInclude Include="TestLineViewHeader1.h">
-      <Filter>Source Files\Test</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -266,18 +248,6 @@
     </ClCompile>
     <ClCompile Include="TouchViewClass.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TestTextViewHeader.cpp">
-      <Filter>Source Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseViewClass1.cpp">
-      <Filter>Source Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseViewClass2.cpp">
-      <Filter>Source Files\Test</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseViewClass3.cpp">
-      <Filter>Source Files\Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
